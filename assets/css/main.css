@@ -1298,6 +1298,8 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-color: rgba(245, 245, 220, 0.187);
+			opacity: 90%;
 		}
 
 			#header .logo .icon:before {
@@ -1687,4 +1689,11 @@ input, select, textarea {
 		position: relative;
 		padding: 10px;
 		/* padding-bottom: 0px; */
+	}
+
+	.headshot {
+		height: 150px; 
+		width: 150px; 
+		opacity: 75%; 
+		margin: auto; 
 	}
